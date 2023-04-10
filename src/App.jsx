@@ -1,4 +1,11 @@
+import { useState } from 'react'
+import data from './data'
+import List from './components/List'
 const App = () => {
-  return <h2>Birthday Reminder - Starter</h2>;
-};
-export default App;
+  return (
+    <>
+      <List />
+    </>
+  )
+}
+export default App
